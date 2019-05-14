@@ -1,0 +1,55 @@
+/*
+* Chioma Njoku
+* May 14, 2019
+* The Box Model
+*/
+
+/* The universal selector */
+
+* {margin: 0;
+    padding: 0;
+
+}
+
+/* Body properties here */
+
+
+/* This adjusts the overall appearance of the outermost border */
+body {
+       background-color: white;
+       border: 3px dotted black;
+       padding: 20px 18px 20px 18px;
+       width: 610px;
+       height: 180px;
+    
+}
+    
+/* This adjusts the overall appearance of the border around the heading */
+    h1 { 
+        background-color: white;
+        border: 1px dashed black;
+        padding: 12px 5px 12px 5px;
+        margin: 7px;
+        width: 500px;
+        
+        
+    }
+    
+/* This adjusts the overall appearance of the border around the paragraph */
+    p { 
+        background-color: white;
+        border: 1px dashed black;
+        padding: 12px 5px 12px 5px;
+        margin: 7px;
+        width: 500px;
+        
+    
+    }
+
+/* This adjusts the overall appearance of the border surrounding the heading and paragraph */
+main{
+        background-color: white;
+        border: 2px solid black;
+        padding: 20px 5px 2px 5px;
+        width: 530px
+}
